@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 11:16:21</sys_created_on>
+        <sys_id>4fb9f4f8d9b703107f44834287f651c2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>.x_cdltd_travel_r_0.Travel Admin</sys_name>
+        <sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">75383724d9f303107f44834287f65150</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request Manager">75383724d9f303107f44834287f65150</sys_scope>
+        <sys_security_acl display_value="x_cdltd_travel_r_0_number.booking_reference">e1b9b8f8d9b703107f44834287f6511e</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_4fb9f4f8d9b703107f44834287f651c2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 11:16:21</sys_updated_on>
+        <sys_user_role display_value="x_cdltd_travel_r_0.Travel Admin" name="x_cdltd_travel_r_0.Travel Admin">11e83724d9f303107f44834287f651e3</sys_user_role>
+    </sys_security_acl_role>
+</record_update>

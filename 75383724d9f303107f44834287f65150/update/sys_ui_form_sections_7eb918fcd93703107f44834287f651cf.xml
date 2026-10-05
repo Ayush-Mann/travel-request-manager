@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="7eb918fcd93703107f44834287f651cf" sys_domain="global" table="x_cdltd_travel_r_0_number" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-05 08:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>07b918fcd93703107f44834287f651d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_travel_r_0_number" name="x_cdltd_travel_r_0_number" sys_domain="global" view="Default view">7eb918fcd93703107f44834287f651cf</sys_ui_form>
+            <sys_ui_section caption="Requester Details" display_value="Requester Details" name="x_cdltd_travel_r_0_number" sys_domain="global" view="Default view">a6cd7768d9f303107f44834287f65168</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-05 08:55:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-05 08:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4fb918fcd93703107f44834287f651d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_travel_r_0_number" name="x_cdltd_travel_r_0_number" sys_domain="global" view="Default view">7eb918fcd93703107f44834287f651cf</sys_ui_form>
+            <sys_ui_section caption="Trip Details" display_value="Trip Details" name="x_cdltd_travel_r_0_number" sys_domain="global" view="Default view">72b918fcd93703107f44834287f6511f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-05 08:55:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-05 08:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8bb918fcd93703107f44834287f651d4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_travel_r_0_number" name="x_cdltd_travel_r_0_number" sys_domain="global" view="Default view">7eb918fcd93703107f44834287f651cf</sys_ui_form>
+            <sys_ui_section caption="Cost and Approval" display_value="Cost and Approval" name="x_cdltd_travel_r_0_number" sys_domain="global" view="Default view">76b918fcd93703107f44834287f651ce</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-05 08:55:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-05 08:55:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bb918fcd93703107f44834287f651d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_cdltd_travel_r_0_number" name="x_cdltd_travel_r_0_number" sys_domain="global" view="Default view">7eb918fcd93703107f44834287f651cf</sys_ui_form>
+            <sys_ui_section caption="Booking Details" display_value="Booking Details" name="x_cdltd_travel_r_0_number" sys_domain="global" view="Default view">b2b918fcd93703107f44834287f651cf</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-05 08:55:38</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_cdltd_travel_r_0_number</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-10-05 08:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7eb918fcd93703107f44834287f651cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_cdltd_travel_r_0_number</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">75383724d9f303107f44834287f65150</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Travel Request Manager">75383724d9f303107f44834287f65150</sys_scope>
+            <sys_update_name>sys_ui_form_sections_7eb918fcd93703107f44834287f651cf</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-10-05 08:55:36</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

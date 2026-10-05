@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Travel Request">b7fb3be4d9f303107f44834287f65144</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Travel Requests</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_cdltd_travel_r_0_travel_request</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_cdltd_travel_r_0.travel_request_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 06:45:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7bfb3be4d9f303107f44834287f65146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel Requests</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">75383724d9f303107f44834287f65150</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request Manager">75383724d9f303107f44834287f65150</sys_scope>
+        <sys_update_name>sys_app_module_7bfb3be4d9f303107f44834287f65146</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 06:45:42</sys_updated_on>
+        <timeline_page/>
+        <title>Travel Requests</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Travel Request Manager">75383724d9f303107f44834287f65150</application>
+        <file_path/>
+        <instance_id>1ce13b43936f8794dd40768efaba1097</instance_id>
+        <instance_name>nowlearning-nlinst04745417-6zmdw-0001</instance_name>
+        <name>sys_app_module_7bfb3be4d9f303107f44834287f65146</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Travel Request">b7fb3be4d9f303107f44834287f65144</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Travel Requests</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_cdltd_travel_r_0_travel_request</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_cdltd_travel_r_0.travel_request_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-10-05 06:45:42</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7bfb3be4d9f303107f44834287f65146</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Travel Requests</sys_name><sys_overrides/><sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">75383724d9f303107f44834287f65150</sys_package><sys_policy/><sys_scope display_value="Travel Request Manager">75383724d9f303107f44834287f65150</sys_scope><sys_update_name>sys_app_module_7bfb3be4d9f303107f44834287f65146</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-10-05 06:45:42</sys_updated_on><timeline_page/><title>Travel Requests</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>1104228014</payload_hash>
+        <record_name>Travel Requests</record_name>
+        <reverted_from/>
+        <source>39383724d9f303107f44834287f65151</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 06:45:42</sys_created_on>
+        <sys_id>f3fb3be4d9f303107f44834287f65148</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a10acfa3ab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 06:45:42</sys_updated_on>
+        <type>Module</type>
+        <update_guid>7ffb3be4a1f303101d2d1624e1030647</update_guid>
+        <update_guid_history>7ffb3be4a1f303101d2d1624e1030647:1104228014</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Travel Requests">899d7368d9f303107f44834287f65166</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 06:52:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0205d66254b1448e85699cbd438620a1</sys_id>
+        <sys_metadata>7bfb3be4d9f303107f44834287f65146</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Travel Requests</sys_name>
+        <sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">75383724d9f303107f44834287f65150</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request Manager">75383724d9f303107f44834287f65150</sys_scope>
+        <sys_scope_delete display_value="">2f17cb56229a4b9da11d5a3ba7fc9381</sys_scope_delete>
+        <sys_update_name>sys_app_module_7bfb3be4d9f303107f44834287f65146</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7bfb3be4d9f303107f44834287f65146">f3fb3be4d9f303107f44834287f65148</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 06:52:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="5fadf368d9f303107f44834287f6516b" label="Travel Request" max_length="40" name="x_cdltd_travel_r_0_number" type="collection">
+        <element label="Director Approval Needed" max_length="255" name="director_approval_needed" read_only="true" type="boolean"/>
+        <element label="Visa Details" max_length="255" name="visa_details" type="string"/>
+        <element label="Estimated Cost" mandatory="true" max_length="40" name="estimated_cost" type="currency"/>
+        <element label="Origin" mandatory="true" max_length="40" name="origin" type="string"/>
+        <element label="Manager" max_length="32" name="manager" read_only="true" reference="sys_user" type="reference"/>
+        <element default="javascript:gs.getUserID()" label="Requested By" mandatory="true" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element label="Rejection Reason" max_length="500" name="rejection_reason" type="string"/>
+        <element label="Booking Reference" max_length="100" name="booking_reference" type="string"/>
+        <element choice="3" default="draft" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="5" value="rejected"/>
+                <element inactive_on_update="false" label="Submitted" sequence="1" value="submitted"/>
+                <element inactive_on_update="false" label="Completed" sequence="4" value="completed"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Booked" sequence="3" value="booked"/>
+                <element inactive_on_update="false" label="Manager Approved" sequence="2" value="manager_approved"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="6" value="cancelled"/>
+            </choice>
+        </element>
+        <element label="Visa Required" max_length="255" name="visa_required" type="boolean"/>
+        <element label="Destination" mandatory="true" max_length="40" name="destination" type="string"/>
+        <element label="Departure Date" mandatory="true" max_length="40" name="departure_date" type="glide_date"/>
+        <element label="Return Date" mandatory="true" max_length="40" name="return_date" type="glide_date"/>
+        <element default="javascript:getNextObjNumberPadded();" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" read_only="true" type="string" use_dynamic_default="true"/>
+        <element choice="3" label="Travel Type" max_length="40" name="travel_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Domestic" sequence="0" value="domestic"/>
+                <element inactive_on_update="false" label="International" sequence="1" value="international"/>
+            </choice>
+        </element>
+        <element label="Purpose of Travel" mandatory="true" max_length="4000" name="purpose_of_travel" type="string"/>
+        <element label="Department" max_length="32" name="department" reference="cmn_department" type="reference"/>
+        <index name="index">
+            <element name="department"/>
+        </index>
+        <index name="index2">
+            <element name="requested_by"/>
+        </index>
+        <index name="index3">
+            <element name="manager"/>
+        </index>
+    </element>
+</database>

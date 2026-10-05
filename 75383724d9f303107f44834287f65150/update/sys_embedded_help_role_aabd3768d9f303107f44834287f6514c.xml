@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_cdltd_travel_r_0.number_user" name="x_cdltd_travel_r_0.number_user">66bd3768d9f303107f44834287f6514b</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-10-05 06:53:16</sys_created_on>
+        <sys_id>aabd3768d9f303107f44834287f6514c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>66bd3768d9f303107f44834287f6514b</sys_name>
+        <sys_package display_value="Travel Request Manager" source="x_cdltd_travel_r_0">75383724d9f303107f44834287f65150</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Travel Request Manager">75383724d9f303107f44834287f65150</sys_scope>
+        <sys_update_name>sys_embedded_help_role_aabd3768d9f303107f44834287f6514c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-10-05 06:53:16</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
